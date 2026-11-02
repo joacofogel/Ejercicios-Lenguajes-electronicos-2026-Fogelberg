@@ -11,12 +11,12 @@ int main()
     int filas = 4;
     int columnas = 5;
 
-    // Imprimir la matriz en formato de tabla
+    
     for (int i = 0; i < filas; i++) {
         for (int j = 0; j < columnas; j++) {
-            printf("%d \t", matriz[i][j]); // Imprime el elemento y una tabulación
+            printf("%d \t", matriz[i][j]); 
         }
-        printf("\n"); // Salto de línea al terminar cada fila
+        printf("\n"); 
     }
 
     return 0;
