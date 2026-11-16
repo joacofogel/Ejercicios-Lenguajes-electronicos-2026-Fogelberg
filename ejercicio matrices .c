@@ -1,3 +1,4 @@
+//no se bien que ejercicio es este pero lo dejo
 #include <stdio.h>
 
 int main() {
