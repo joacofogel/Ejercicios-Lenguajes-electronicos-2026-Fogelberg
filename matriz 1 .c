@@ -1,3 +1,4 @@
+//matriz realizada de 4x3 en lugar de 3x2
 #include <stdio.h>
 
 int main()
