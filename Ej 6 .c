@@ -16,26 +16,26 @@ int main() {
     printf("Ingrese la edad: ");
     scanf("%d", &alumno.edad);
 
-    printf("Ingrese el año (en número): ");
-    scanf("%d", &alumno.año);
+    printf("Ingrese el año (en número):  ");
+    scanf("%d", &alumno.año) ;
 
-    printf("\nDatos del alumno:\n");
+        printf("\nDatos del alumno:\n");
     printf("Nombre: %s\n", alumno.nombre);
-    printf("Edad: %d\n", alumno.edad);
-    printf("Año: %d\n", alumno.año);
+     printf("Edad: %d\n", alumno.edad);
+    printf ("Año: %d\n", alumno.año);
 
     printf("\nIngrese los nuevos datos:\n");
 
     printf("Nuevo nombre: ");
-    scanf("%s", alumno.nombre);
+    scanf ("%s", alumno.nombre);
 
     printf("Nueva edad: ");
-    scanf("%d", &alumno.edad);
+    scanf(" %d", &alumno.edad);
 
-    printf("Nuevo año: ");
+     printf("Nuevo año: ");
     scanf("%d", &alumno.año);
 
-    printf("\nDatos modificados:\n");
+    printf("\nDatos modificados:\n") ;
     printf("Nombre: %s\n", alumno.nombre);
     printf("Edad: %d\n", alumno.edad);
     printf("Año: %d\n", alumno.año);
